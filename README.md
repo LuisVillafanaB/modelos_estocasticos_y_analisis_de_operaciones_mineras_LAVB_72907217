@@ -132,3 +132,10 @@ lv.head()
       plt.ylabel("P")
       plt.savefig('grafico_dispersion.svg')
       plt.show()
+
+  ### Conclusión
+  Se realizó exitosamente que Jupyter Notebook lea el archivo bd.csv para luego poder aplicar un análisis química de las variables `Fe` y `P`, identificar sus estadísticos principales, clasificarlas mediante percentiles y generar gráficos exploratorios. Tmabién se logró lo siguiente:
+    
+  - Utilizar librerías como Pandas, Numpy y Matplotlib
+  - Se realizó un resumen estadístico básico
+  - Se elaboró dos gráficos (histograma de Fe y el Gráfico de dispersión de Fe y P)
